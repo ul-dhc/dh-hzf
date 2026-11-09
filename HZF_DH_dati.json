@@ -2859,7 +2859,7 @@
       "kws": [
         "Korpusi un teksta analīze",
         "Arhīvi un kultūras dati",
-        "MI humanitāro zinātņu datos",
+        "MI humanitārajās zinātnēs",
         "Kartēšana un telpiskā analīze",
         "Programmēšana un rīku izstrāde",
         "Datu modelēšana un vizualizācija",
@@ -4031,7 +4031,7 @@
     },
     {
       "id": "ai",
-      "label": "MI humanitāro zinātņu datos",
+      "label": "MI humanitārajās zinātnēs",
       "short": "MI datos"
     },
     {
