@@ -288,11 +288,11 @@ function showDetails(n){const d=$('details');const kindLabel={dept:'Struktūrvie
   let html='<span class="close" onclick="document.getElementById(\'details\').style.display=\'none\'">×</span>';
   html+='<span class="tag" style="background:'+col+'">'+esc(kindLabel)+'</span><h3>'+esc(n.label)+'</h3>';
   if(n.kind==='act'){
-    const rec=n.record;if(rec.description)html+='<p>'+esc(rec.description)+'</p>';if(rec.courseCode||rec.studyLevel)html+='<p>'+esc([rec.courseCode,rec.studyLevel].filter(Boolean).join(' · '))+'</p>';html+='<div class="grp">Avoti</div><p>'+esc(rec.provenance)+'</p>';if(rec.linkStatus)html+='<p>'+esc(rec.linkStatus)+'</p>';
+    const rec=n.record;if(rec.description)html+='<p>'+esc(rec.description)+'</p>';if(rec.courseCode||rec.studyLevel)html+='<p>'+esc([rec.courseCode,rec.studyLevel].filter(Boolean).join(' · '))+'</p>';
     if(rec.id==='S11')html+='<div class="grp">Īstenotājs</div><p>Digitālo humanitāro zinātņu centrs</p><div class="grp">Bakalaura studentu auditorija</div><p>'+esc(rec.audienceScope)+'</p>';
     if(rec.id!=='S11'&&n.depts&&n.depts.length)html+='<div class="grp">Struktūrvienība(s)</div><ul>'+n.depts.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>';
     if(n.kws&&n.kws.length)html+='<div class="grp">DH tēmas</div><ul>'+n.kws.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>';
-    if(n.url)html+='<div class="grp">Avots</div><a href="'+esc(n.url)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:2px;color:#2563eb;word-break:break-all;font-size:12px">'+esc(n.url)+' ↗</a>';
+    if(n.url)html+='<div class="grp">Saite</div><a href="'+esc(n.url)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:2px;color:#2563eb;word-break:break-all;font-size:12px">'+esc(n.url)+' ↗</a>';
     const par=(relFrom.get(n.id)||[]).map(id=>nodes.get(id).label);
     const ch=(relTo.get(n.id)||[]).map(id=>nodes.get(id).label);
     if(par.length)html+='<div class="grp">Saistīts ar projektu</div><ul>'+par.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>';
