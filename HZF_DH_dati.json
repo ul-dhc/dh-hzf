@@ -52,8 +52,7 @@
           "sheet": "Digitālie resursi",
           "row": 3
         }
-      ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/"
+      ]
     },
     {
       "id": "P4",
@@ -369,7 +368,8 @@
         "https://arhiiv.eki.ee/dict/bss/bss.html"
       ],
       "period": "2016 – 2019",
-      "lifecycle": "Noslēgts pēc norādītā termiņa",
+      "lifecycle": "Neaktīvs",
+      "lifecycleVerifiedOn": "09.11.2026.",
       "availability": "",
       "linkStatus": "",
       "linkNote": "",
@@ -1167,9 +1167,10 @@
       "sourceFiles": [
         "DH-aktivitātes-Vēstures-un-arheoloģijas-nodaļa.docx"
       ],
-      "sourceUrls": [],
+      "sourceUrls": ["https://manaizvele.lu.lv/"],
       "period": "2026-01-01 – 2028-12-31",
-      "lifecycle": "Īstenošanas periodā",
+      "lifecycle": "Aktīvs",
+      "lifecycleVerifiedOn": "09.11.2026.",
       "availability": "",
       "linkStatus": "",
       "linkNote": "",
@@ -1178,7 +1179,8 @@
       "areas": [],
       "description": "",
       "affiliationVerified": false,
-      "affiliationEvidence": "Piederības norāde projekta avotā nav atsevišķi pārbaudīta."
+      "affiliationEvidence": "Piederības norāde projekta avotā nav atsevišķi pārbaudīta.",
+      "url": "https://manaizvele.lu.lv/"
     },
     {
       "id": "P30",
@@ -1251,7 +1253,8 @@
         "https://web2learn.eu/portfolio/linnaea-2/"
       ],
       "period": "2026-10-01 – 2029-05-31",
-      "lifecycle": "Īstenošanas periodā",
+      "lifecycle": "Aktīvs",
+      "lifecycleVerifiedOn": "09.11.2026.",
       "availability": "",
       "linkStatus": "",
       "linkNote": "",
@@ -1342,7 +1345,6 @@
       "affiliation": "Lapā norādīta Tilde. Anglistikas nodaļas ieguldījums vai piederība HZF šajā lapā nav apliecināta.",
       "layer": "review",
       "areas": [],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Lapā norādīta Tilde. Anglistikas nodaļas ieguldījums vai piederība HZF šajā lapā nav apliecināta."
@@ -1385,7 +1387,6 @@
         "corpus",
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Izdevējos norādīts LU DHC; ieraksts ievietots HZF valodas un kultūras mantojuma datu kolekcijā."
@@ -1424,7 +1425,6 @@
       "layer": "pedagogy",
       "areas": [],
       "planned": true,
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Publisku resursu un tajā redzamo institucionālo piederību nevar pārbaudīt."
@@ -1466,7 +1466,6 @@
       ],
       "planned": true,
       "expert": false,
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Bez publiskas resursa adreses piederības norāde nav pārbaudāma."
@@ -1509,7 +1508,6 @@
       "areas": [
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Resursa saturs nav pieejams; HZF / struktūrvienības norādi pašā resursā nevar pārbaudīt."
@@ -1553,8 +1551,6 @@
         "archive",
         "speech"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
-      "catalogueUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/#nacionalas-mutvardu-vestures-arhivs",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Krājuma veidošana saistīta ar LU Filozofijas un socioloģijas institūtu un asociāciju “Dzīvesstāsts”. HZF pieminēta studentu dalības kontekstā vienā ekspedīcijā, ne kā krājuma pašreizējā institucionālā piederība."
@@ -1595,7 +1591,6 @@
       "areas": [
         "lex"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Vārdnīcas sastādītājs norādīts kā LU Humanitāro zinātņu fakultātes Latviešu valodas institūts."
@@ -1637,7 +1632,6 @@
       "areas": [
         "lex"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Kājene: LU HZF Latviešu valodas institūts."
@@ -1679,7 +1673,6 @@
       "areas": [
         "corpus"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Veidotājos nosaukts HZF Latviešu valodas institūts un HZF; norādīti arī sadarbības partneri."
@@ -1723,7 +1716,6 @@
       "areas": [
         "lex"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Kājenē norādīts LU HZF Latviešu valodas institūts."
@@ -1765,7 +1757,6 @@
       "areas": [
         "map"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Sadaļā “Par mums”, logo un kājenē norādīts LU Latviešu valodas institūts; HZF nosaukums nav pievienots."
@@ -1807,7 +1798,6 @@
         "lex",
         "participation"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Aizsardzības lapā nav resursa satura vai piederības norādes. Tas pats par sevi nepierāda pastāvīgu resursa slēgšanu."
@@ -1849,7 +1839,6 @@
         "map",
         "participation"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Kontaktos un sadaļā “Par datubāzi” norādīts LU Latviešu valodas institūts; HZF nosaukums nav minēts."
@@ -1891,7 +1880,6 @@
       "areas": [
         "corpus"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Izdevējos norādīts Latvian Language Institute, Faculty of Humanities, University of Latvia; arī LU MII AiLab."
@@ -1932,7 +1920,6 @@
       "areas": [
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Pārbaudes laikā resursa lapa neielādējas."
@@ -1971,7 +1958,6 @@
       "areas": [
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Piederības norāde pašā resursā nav pārbaudāma bez piekļuves adreses."
@@ -2013,7 +1999,6 @@
         "archive",
         "speech"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Piederības norāde pašā resursā nav pārbaudāma bez piekļuves adreses."
@@ -2053,8 +2038,6 @@
       "areas": [
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
-      "catalogueUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/#arheologiskas-materialu-kratuves-amk-veidotas-digitalas-datu-bazes-lvi-majas-lapa",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Vietnē skaidri norādīts Latvijas vēstures institūts un LU; HZF nosaukums pārbaudītās lapas tekstā nav minēts."
@@ -2097,7 +2080,6 @@
         "lex",
         "viz"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Aprakstā norādīta Department of Latvian and Baltic Studies, Faculty of Humanities, University of Latvia; arī HZF kolekcija."
@@ -2144,8 +2126,6 @@
         "speech",
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
-      "catalogueUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/#livonian-tech",
       "description": "Lībiešu valodas un kultūras resursu platforma ar strukturētiem valodas, arhīvu un kultūras datiem.",
       "affiliationVerified": true,
       "affiliationEvidence": "Aprakstā un vizuālajā identitātē norādīts LU Lībiešu institūts; HZF nosaukums nav minēts."
@@ -2188,7 +2168,6 @@
       "areas": [
         "lex"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Vietnes uzturētāji: Latvijas Universitāte un LU Starptautiskais Indijas studiju institūts (LU SISI). HZF nav minēta; lietots “institūts”, ne pašreizējais “centrs”."
@@ -2235,7 +2214,6 @@
         "map",
         "viz"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "Teiku izpētes platforma ar strukturētiem teiku datiem, metadatiem, kartēšanu un datu vizualizāciju.",
       "affiliationVerified": true,
       "affiliationEvidence": "Sadaļā “Par projektu” skaidri norādīts: platforma tiek veidota LU HZF Digitālo humanitāro zinātņu centrā."
@@ -2280,7 +2258,6 @@
         "ai",
         "code"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "Audio transkribēšanas un attēlu aprakstu veidošanas rīks.",
       "affiliationVerified": true,
       "affiliationEvidence": "Info sadaļā skaidri norādīts, ka rīku izveidojis LU DHC projektā ȬPEN (ZDA-LIP 2025/2). HZF nosaukums nav minēts."
@@ -2323,7 +2300,6 @@
       "areas": [
         "infra"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "“Par mums” DHC norādīts kā platformas izstrādātājs un koordinētājs; dots arī links uz DHC HZF vietnē. HZF nosaukums pašā tekstā nav minēts."
@@ -2368,7 +2344,6 @@
         "gaming",
         "participation"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "Digitālo spēļu platforma un iniciatīva.",
       "affiliationVerified": true,
       "affiliationEvidence": "About sadaļā norādīta un sasaistīta platformas izcelsme LU Digital Humanities Center. HZF nosaukums nav minēts."
@@ -2412,7 +2387,6 @@
         "corpus",
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": true,
       "affiliationEvidence": "Izdevēju un apraksta laukos norādīts LU DHC kopā ar LU LFMI; HZF nosaukums šajos resursa laukos nav minēts."
@@ -2457,7 +2431,6 @@
         "map",
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "Ziemeļkurzemes lībiešu krasta apdzīvoto vietu daudzvalodu vietvārdu dati.",
       "affiliationVerified": false,
       "affiliationEvidence": "Pārbaudītajā Zenodo aprakstā un izvērstajās autoru piederībās nav HZF vai Latvijas vēstures institūta norādes. Saikne no research.lu.lv ir ārējs pamatojums, ne piederības norāde pašā resursā."
@@ -2500,7 +2473,6 @@
       "areas": [
         "archive"
       ],
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
       "description": "",
       "affiliationVerified": false,
       "affiliationEvidence": "Izvērstajā autores Anetes Karlsones piederībā norādīta University of Latvia; HZF un Latvijas vēstures institūts nav norādīts."
@@ -3878,7 +3850,7 @@
     {
       "id": "A11",
       "name": "Balsu talka",
-      "type": "Cita aktivitāte",
+      "type": "Projekts",
       "depts": [
         "Digitālo humanitāro zinātņu centrs"
       ],
@@ -3897,12 +3869,10 @@
       "sourceRow": null,
       "provenance": "Papildināts no avotiem",
       "sourceFiles": [],
-      "sourceUrls": [
-        "https://balsutalka.lv/",
-        "https://digitalhumanities.lv/lv/projekti/vti/"
-      ],
+      "sourceUrls": ["https://balsutalka.lv/"],
       "period": "",
-      "lifecycle": "",
+      "lifecycle": "Aktīvs",
+      "lifecycleVerifiedOn": "09.11.2026.",
       "availability": "",
       "linkStatus": "",
       "linkNote": "",
@@ -3914,8 +3884,6 @@
       ],
       "expert": true,
       "url": "https://balsutalka.lv/",
-      "catalogueSectionUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/",
-      "catalogueUrl": "https://digitalhumanities.lv/lv/resursi-un-riki/#balsu-talka",
       "description": "Sabiedrības iesaiste latviešu valodas runas datu veidošanā Mozilla Common Voice platformā.",
       "affiliationVerified": false,
       "affiliationEvidence": "DHC ieguldījums sabiedrības iesaistē un runas datu ieguvē."
@@ -3947,7 +3915,8 @@
       "sourceUrls": [],
       "url": "",
       "period": "",
-      "lifecycle": "",
+      "lifecycle": "Aktīvs",
+      "lifecycleVerifiedOn": "09.11.2026.",
       "availability": "Digitālais korpuss izstrādē.",
       "linkStatus": "Publiska projekta adrese vēl nav norādīta",
       "linkNote": "Projekta vietne tiek gatavota publicēšanai.",
