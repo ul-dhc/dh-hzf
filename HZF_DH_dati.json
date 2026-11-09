@@ -1374,7 +1374,8 @@
       ],
       "sourceUrls": [
         "http://hdl.handle.net/20.500.12574/147",
-        "https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/147"
+        "https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/147",
+        "https://research.lu.lv/lv/datasets/latvian-folk-legend-corpus-of-lpt-in-latvian/"
       ],
       "period": "",
       "lifecycle": "",
@@ -1389,7 +1390,8 @@
       ],
       "description": "",
       "affiliationVerified": true,
-      "affiliationEvidence": "Izdevējos norādīts LU DHC; ieraksts ievietots HZF valodas un kultūras mantojuma datu kolekcijā."
+      "affiliationEvidence": "Izdevējos norādīts LU DHC; ieraksts ievietots HZF valodas un kultūras mantojuma datu kolekcijā.",
+      "researchDatasetUrl": "https://research.lu.lv/lv/datasets/latvian-folk-legend-corpus-of-lpt-in-latvian/"
     },
     {
       "id": "R6",
@@ -2067,7 +2069,8 @@
         "DH-aktivitātes-Latvistikas-un-baltistikas-nodaļa.docx"
       ],
       "sourceUrls": [
-        "http://hdl.handle.net/20.500.12574/155"
+        "http://hdl.handle.net/20.500.12574/155",
+        "https://research.lu.lv/lv/datasets/database-of-latvian-morphemes-and-derivational-models-dlmdm/"
       ],
       "period": "",
       "lifecycle": "",
@@ -2082,7 +2085,8 @@
       ],
       "description": "",
       "affiliationVerified": true,
-      "affiliationEvidence": "Aprakstā norādīta Department of Latvian and Baltic Studies, Faculty of Humanities, University of Latvia; arī HZF kolekcija."
+      "affiliationEvidence": "Aprakstā norādīta Department of Latvian and Baltic Studies, Faculty of Humanities, University of Latvia; arī HZF kolekcija.",
+      "researchDatasetUrl": "https://research.lu.lv/lv/datasets/database-of-latvian-morphemes-and-derivational-models-dlmdm/"
     },
     {
       "id": "R23",
@@ -2374,7 +2378,7 @@
       ],
       "sourceUrls": [
         "https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/145",
-        "https://research.lu.lv/en/datasets/corpus-of-latvian-autobiographies-clarin-lv-digital-library-at-im/"
+        "https://research.lu.lv/lv/datasets/corpus-of-latvian-autobiographies-clarin-lv-digital-library-at-im/"
       ],
       "period": "",
       "lifecycle": "",
@@ -2389,7 +2393,8 @@
       ],
       "description": "",
       "affiliationVerified": true,
-      "affiliationEvidence": "Izdevēju un apraksta laukos norādīts LU DHC kopā ar LU LFMI; HZF nosaukums šajos resursa laukos nav minēts."
+      "affiliationEvidence": "Izdevēju un apraksta laukos norādīts LU DHC kopā ar LU LFMI; HZF nosaukums šajos resursa laukos nav minēts.",
+      "researchDatasetUrl": "https://research.lu.lv/lv/datasets/corpus-of-latvian-autobiographies-clarin-lv-digital-library-at-im/"
     },
     {
       "id": "R30",
@@ -2418,7 +2423,7 @@
       ],
       "sourceUrls": [
         "https://doi.org/10.5281/zenodo.15723050",
-        "https://research.lu.lv/en/datasets/dataset-of-the-multilingual-gazetteer-of-the-settlements-on-the-l/"
+        "https://research.lu.lv/lv/datasets/dataset-of-the-multilingual-gazetteer-of-the-settlements-on-the-l/"
       ],
       "period": "",
       "lifecycle": "",
@@ -2433,7 +2438,8 @@
       ],
       "description": "Ziemeļkurzemes lībiešu krasta apdzīvoto vietu daudzvalodu vietvārdu dati.",
       "affiliationVerified": false,
-      "affiliationEvidence": "Pārbaudītajā Zenodo aprakstā un izvērstajās autoru piederībās nav HZF vai Latvijas vēstures institūta norādes. Saikne no research.lu.lv ir ārējs pamatojums, ne piederības norāde pašā resursā."
+      "affiliationEvidence": "Pārbaudītajā Zenodo aprakstā un izvērstajās autoru piederībās nav HZF vai Latvijas vēstures institūta norādes. Saikne no research.lu.lv ir ārējs pamatojums, ne piederības norāde pašā resursā.",
+      "researchDatasetUrl": "https://research.lu.lv/lv/datasets/dataset-of-the-multilingual-gazetteer-of-the-settlements-on-the-l/"
     },
     {
       "id": "R31",
@@ -4538,6 +4544,162 @@
         "P6"
       ],
       "verifiedOn": "09.11.2026."
+    },
+    {
+      "id": "R32",
+      "name": "Latvijas pandēmijas dienasgrāmatu korpuss 2020–2021",
+      "type": "Digitālais resurss",
+      "depts": [
+        "Digitālo humanitāro zinātņu centrs"
+      ],
+      "expertUnits": [
+        "Digitālo humanitāro zinātņu centrs"
+      ],
+      "roles": {
+        "Digitālo humanitāro zinātņu centrs": "Kartējumā norādītā struktūrvienība"
+      },
+      "kws": [
+        "Korpusi un teksta analīze",
+        "Arhīvi un kultūras dati"
+      ],
+      "sourceSheet": "research.lu.lv — HZF datu kopas",
+      "sourceRow": null,
+      "provenance": "Papildināts no avotiem",
+      "sourceFiles": [],
+      "sourceUrls": [
+        "https://hdl.handle.net/20.500.12574/48",
+        "https://research.lu.lv/lv/datasets/corpus-of-latvian-pandemic-diaries-20202021/"
+      ],
+      "url": "https://hdl.handle.net/20.500.12574/48",
+      "researchDatasetUrl": "https://research.lu.lv/lv/datasets/corpus-of-latvian-pandemic-diaries-20202021/",
+      "period": "",
+      "lifecycle": "",
+      "availability": "Publiski pieejami teksta faili; CC BY-SA 4.0",
+      "linkStatus": "",
+      "linkNote": "",
+      "affiliation": "Saikne ar DHC precizēta kartējumā. Izdevējs: LU Literatūras, folkloras un mākslas institūts.",
+      "layer": "research",
+      "areas": [
+        "corpus",
+        "archive"
+      ],
+      "description": "Latviešu valodas dienasgrāmatu tekstu korpuss, kas dokumentē dzīvi pandēmijas laikā. CLARIN-LV ierakstā pieejami 238 autoru teksta faili.",
+      "affiliationVerified": false,
+      "affiliationEvidence": "DHC saikne precizēta pēc lietotājas sniegtās informācijas; saglabāta avotā norādītā izdevēja informācija.",
+      "authors": [
+        "Sanita Reinsone",
+        "Ilze Ļaksa-Timinska",
+        "Justīne Jaudzema"
+      ],
+      "publisher": "LU Literatūras, folkloras un mākslas institūts",
+      "dateIssued": "2021",
+      "verifiedOn": "09.11.2026."
+    },
+    {
+      "id": "R33",
+      "name": "Dainu skapja elektroniskā versija",
+      "type": "Digitālais resurss",
+      "depts": [
+        "Digitālo humanitāro zinātņu centrs"
+      ],
+      "expertUnits": [
+        "Digitālo humanitāro zinātņu centrs"
+      ],
+      "roles": {
+        "Digitālo humanitāro zinātņu centrs": "Kartējumā norādītā struktūrvienība"
+      },
+      "kws": [
+        "Arhīvi un kultūras dati",
+        "Korpusi un teksta analīze"
+      ],
+      "sourceSheet": "research.lu.lv — HZF datu kopas",
+      "sourceRow": null,
+      "provenance": "Papildināts no avotiem",
+      "sourceFiles": [],
+      "sourceUrls": [
+        "https://www.dainuskapis.lv/",
+        "https://research.lu.lv/lv/datasets/dainu-skapja-elektronisk%C4%81-versija/"
+      ],
+      "url": "https://www.dainuskapis.lv/",
+      "researchDatasetUrl": "https://research.lu.lv/lv/datasets/dainu-skapja-elektronisk%C4%81-versija/",
+      "period": "",
+      "lifecycle": "",
+      "availability": "Publiska meklēšanas saskarne",
+      "linkStatus": "",
+      "linkNote": "",
+      "affiliation": "Saikne ar DHC precizēta kartējumā. Izdevējs: LU Literatūras, folkloras un mākslas institūts.",
+      "layer": "research",
+      "areas": [
+        "archive",
+        "corpus"
+      ],
+      "description": "Tautasdziesmu teksti, digitalizētās Dainu skapja lapiņas, transkripcijas, metadati un klasifikācija. Research.lu.lv ierakstā datubāze saistīta ar LU LFMI uzturēto Humma.lv.",
+      "affiliationVerified": false,
+      "affiliationEvidence": "DHC saikne precizēta pēc lietotājas sniegtās informācijas; saglabāta avotā norādītā izdevēja informācija.",
+      "authors": [
+        "Ginta Pērle-Sīle",
+        "Arta Krūze",
+        "Sandis Laime",
+        "Zaiga Pleiko",
+        "Una Smilgaine",
+        "Baiba Krogzeme-Mosgorda",
+        "Elga Melne",
+        "Sanita Reinsone"
+      ],
+      "publisher": "LU Literatūras, folkloras un mākslas institūts",
+      "dateIssued": "",
+      "verifiedOn": "09.11.2026."
+    },
+    {
+      "id": "R34",
+      "name": "Latvijas Mākslas akadēmijas keramikas un stikla mākslas diplomdarbi 1949.–1991.",
+      "type": "Digitālais resurss",
+      "depts": [
+        "Digitālo humanitāro zinātņu centrs"
+      ],
+      "expertUnits": [
+        "Digitālo humanitāro zinātņu centrs"
+      ],
+      "roles": {
+        "Digitālo humanitāro zinātņu centrs": "Kartējumā norādītā struktūrvienība"
+      },
+      "kws": [
+        "Arhīvi un kultūras dati",
+        "Kartēšana un telpiskā analīze"
+      ],
+      "sourceSheet": "research.lu.lv — HZF datu kopas",
+      "sourceRow": null,
+      "provenance": "Papildināts no avotiem",
+      "sourceFiles": [],
+      "sourceUrls": [
+        "https://doi.org/10.5281/zenodo.18739382",
+        "https://research.lu.lv/lv/datasets/ceramics-and-glass-art-diploma-projects-of-the-art-academy-of-lat/"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.18739382",
+      "researchDatasetUrl": "https://research.lu.lv/lv/datasets/ceramics-and-glass-art-diploma-projects-of-the-art-academy-of-lat/",
+      "period": "",
+      "lifecycle": "",
+      "availability": "Datu kopas apraksts un faili Zenodo",
+      "linkStatus": "",
+      "linkNote": "",
+      "affiliation": "Saikne ar DHC precizēta kartējumā. Izdevējs: Zenodo.",
+      "layer": "research",
+      "areas": [
+        "archive",
+        "map"
+      ],
+      "description": "Datu kopa par 195 Latvijas Mākslas akadēmijā aizstāvētiem diplomdarbiem: autori, darbu nosaukumi, iecerētās atrašanās vietas un norādes uz digitalizētiem attēliem. Veidota projektā “Etnogrāfs, sabiedrība, māksla”.",
+      "affiliationVerified": false,
+      "affiliationEvidence": "DHC saikne precizēta pēc lietotājas sniegtās informācijas; saglabāta avotā norādītā izdevēja informācija.",
+      "authors": [
+        "Inese Sirica",
+        "Santa Sleikša",
+        "Viesturs Vēveris",
+        "Eva Lakinska"
+      ],
+      "publisher": "Zenodo",
+      "dateIssued": "2026-02-23",
+      "verifiedOn": "09.11.2026."
     }
   ],
   "units": [
@@ -4804,6 +4966,10 @@
     [
       "E2026-06",
       "P6"
+    ],
+    [
+      "R34",
+      "P32"
     ]
   ]
 }
