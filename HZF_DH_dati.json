@@ -4186,13 +4186,11 @@
       "name": "Multiple Baltics: digitālās vēstures darbnīcas",
       "type": "Cita aktivitāte",
       "depts": [
-        "Vēstures un arheoloģijas nodaļa",
-        "Digitālo humanitāro zinātņu centrs"
+        "Vēstures un arheoloģijas nodaļa"
       ],
       "expertUnits": [],
       "roles": {
-        "Vēstures un arheoloģijas nodaļa": "HZF līdzorganizēts seminārs; Haralds Matulis vadīja digitālās vēstures darbnīcu.",
-        "Digitālo humanitāro zinātņu centrs": "HZF līdzorganizēts seminārs; Haralds Matulis vadīja digitālās vēstures darbnīcu."
+        "Vēstures un arheoloģijas nodaļa": "Mārtiņš Mintaurs piedalījās ar priekšlasījumu par Baltijas pasaules konceptu vēsturē un mantojuma reprezentācijās."
       },
       "kws": [
         "Arhīvi un kultūras dati",
@@ -4221,7 +4219,7 @@
         "viz",
         "ai"
       ],
-      "description": "Starptautiskā semināra DH daļā aplūkota vēsturisko datu vizualizācija, telpiskā analīze un Transkribus izmantošana viduslaiku avotu pētniecībā.",
+      "description": "Starptautiskā semināra DH daļā aplūkota vēsturisko datu vizualizācija, telpiskā analīze un Transkribus izmantošana viduslaiku avotu pētniecībā. Haralds Matulis vadīja darbnīcu par digitālajām pieejām vēstures pētniecībā.",
       "expert": false,
       "eventKind": "Pasākums",
       "eventDates": [],
@@ -4230,7 +4228,7 @@
         "Starptautiskā vēstures studentu asociācija (ISHA)",
         "LU Humanitāro zinātņu fakultāte"
       ],
-      "organizerRole": "HZF līdzorganizēts seminārs; Haralds Matulis vadīja digitālās vēstures darbnīcu.",
+      "organizerRole": "Pasākumu līdzorganizēja LU HZF. Haralds Matulis piedalījās kā digitālās vēstures darbnīcas vadītājs.",
       "relatedProjectIds": [],
       "verifiedOn": "09.11.2026."
     },
@@ -4440,53 +4438,53 @@
       "verifiedOn": "09.11.2026."
     },
     {
-  "id": "E2026-05",
-  "name": "Exploring the digital heritage of reading: multilingualism, automatic detection and annotation",
-  "type": "Cita aktivitāte",
-  "depts": [
-    "Digitālo humanitāro zinātņu centrs"
-  ],
-  "expertUnits": [],
-  "roles": {
-    "Digitālo humanitāro zinātņu centrs": "Semināra organizēšana."
-  },
-  "kws": [
-    "Korpusi un teksta analīze",
-    "MI humanitārajās zinātnēs"
-  ],
-  "sourceSheet": "Publisko pasākumu avoti",
-  "sourceRow": null,
-  "provenance": "Papildināts no avotiem",
-  "sourceFiles": [],
-  "sourceUrls": [
-    "https://www.hzf.lu.lv/lv/par-mums/lu-mediji/zinas/zina/t/109252/"
-  ],
-  "url": "https://www.hzf.lu.lv/lv/par-mums/lu-mediji/zinas/zina/t/109252/",
-  "period": "13.05.2026.",
-  "lifecycle": "",
-  "availability": "",
-  "linkStatus": "",
-  "linkNote": "",
-  "affiliation": "",
-  "layer": "education",
-  "areas": [
-    "corpus",
-    "ai"
-  ],
-  "description": "Fransuā Viņāla seminārs par READ-IT: daudzvalodīgu tekstu korpusu analīze, lasīšanas pieredzes automātiska noteikšana un semantiska anotēšana.",
-  "expert": false,
-  "eventKind": "Pasākums",
-  "eventDates": [
-    "2026-05-13"
-  ],
-  "eventYear": 2026,
-  "organizers": [
-    "digitalhumanities.lv / DARIAH semināru cikls"
-  ],
-  "organizerRole": "DHC organizēts viespētnieka seminārs.",
-  "relatedProjectIds": [],
-  "verifiedOn": "09.11.2026."
-},
+      "id": "E2026-05",
+      "name": "Exploring the digital heritage of reading: multilingualism, automatic detection and annotation",
+      "type": "Cita aktivitāte",
+      "depts": [
+        "Digitālo humanitāro zinātņu centrs"
+      ],
+      "expertUnits": [],
+      "roles": {
+        "Digitālo humanitāro zinātņu centrs": "Semināra līdzorganizēšana."
+      },
+      "kws": [
+        "Korpusi un teksta analīze",
+        "MI humanitārajās zinātnēs"
+      ],
+      "sourceSheet": "Publisko pasākumu avoti",
+      "sourceRow": null,
+      "provenance": "Papildināts no avotiem",
+      "sourceFiles": [],
+      "sourceUrls": [
+        "https://www.hzf.lu.lv/lv/par-mums/lu-mediji/zinas/zina/t/109252/"
+      ],
+      "url": "https://www.hzf.lu.lv/lv/par-mums/lu-mediji/zinas/zina/t/109252/",
+      "period": "13.05.2026.",
+      "lifecycle": "",
+      "availability": "",
+      "linkStatus": "",
+      "linkNote": "",
+      "affiliation": "",
+      "layer": "education",
+      "areas": [
+        "corpus",
+        "ai"
+      ],
+      "description": "Fransuā Viņāla seminārs par READ-IT: daudzvalodīgu tekstu korpusu analīze, lasīšanas pieredzes automātiska noteikšana un semantiska anotēšana.",
+      "expert": false,
+      "eventKind": "Pasākums",
+      "eventDates": [
+        "2026-05-13"
+      ],
+      "eventYear": 2026,
+      "organizers": [
+        "digitalhumanities.lv / DARIAH semināru cikls"
+      ],
+      "organizerRole": "DHC līdzorganizēts viespētnieka seminārs.",
+      "relatedProjectIds": [],
+      "verifiedOn": "09.11.2026."
+    },
     {
       "id": "E2026-06",
       "name": "Eiropas Zinātnieku nakts: Balsu talka un rokrakstu atpazīšana",
