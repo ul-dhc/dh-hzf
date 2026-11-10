@@ -14,7 +14,7 @@ Statiskas HTML lapas un attēli. GitHub Pages publicē `main` zara saknes direkt
 - `HZF_DH_karte.html` – DH kopaina
 - `HZF_DH_tikls.html` – aktivitāšu tīkls
 - `HZF_DH_ekspertize.html` – ekspertīzes jomas
-- `HZF_DH_piedavajums.html` – studijas, projekti, resursi un rīki, pasākumi un zināšanu apmaiņa
+- `HZF_DH_piedavajums.html` – studijas, projekti, resursi un rīki
 - `par-kartejumu.html`, `ieteikumi.html` – apraksts un ieteikumi
 
 Dati var būt nepilnīgi vai neprecīzi. Precizējumi un ieteikumi: dhc@lu.lv.

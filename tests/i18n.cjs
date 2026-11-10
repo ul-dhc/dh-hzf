@@ -34,14 +34,14 @@ for (const record of data.records) {
   }
   for (const value of [...record.depts,...record.kws].filter(Boolean)) assert(Object.hasOwn(messages,value), `Missing unit or topic: ${value}`);
 }
-assert(api.searchText(data.records.find(r=>r.id==='A10').description).includes('handwriting'));
+assert(api.searchText(data.records.find(r=>r.id==='R26').description).includes('manuscripts'));
 for (const file of fs.readdirSync('.').filter(n=>n.endsWith('.html'))) {
   const html=fs.readFileSync(file,'utf8');
   assert.equal((html.match(/class="language-switch"/g)||[]).length,1,file);
   assert(html.includes('assets/i18n.js'),file);
   for (const match of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(match[1]);
 }
-console.log('All 106 record titles, descriptions, units, topics and public metadata translated. Language precedence, storage fallback, bilingual search, composed labels and inline scripts verified.');
+console.log('All record titles, descriptions, units, topics and public metadata translated. Language precedence, storage fallback, bilingual search, composed labels and inline scripts verified.');
 
 // A translated brand name still contains its Latvian name. Repeated observer
 // notifications must not append the English explanation indefinitely.
