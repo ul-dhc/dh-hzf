@@ -1,2 +1,5 @@
 LU HZF identitātes logo pakotnes horizontālā versija.
 Zīmola materiāli: https://www.hzf.lu.lv/par-mums/zimols/
+
+Angļu versija: HZF_logo.zip → HZF_logo/HZF_ENG_PNG/HZF_eng_horiz.png
+Lejupielādēts no HZF zīmola lapā publicētās oficiālās pakotnes.

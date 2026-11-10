@@ -49,6 +49,11 @@
   }
   function prepareElement(element) {
     if (element.closest('script,style,.language-switch,[data-no-translate]')) return;
+    if (language === 'en' && element.hasAttribute('data-logo-en')) {
+      const attr = element.localName === 'image' ? 'href' : 'src';
+      const source = element.getAttribute('data-logo-en');
+      if (element.getAttribute(attr) !== source) element.setAttribute(attr, source);
+    }
     if (language === 'en') for (const attr of attributes) {
       if (!element.hasAttribute(attr)) continue;
       const original = element.getAttribute(attr);
