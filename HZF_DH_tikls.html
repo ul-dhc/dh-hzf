@@ -66,10 +66,13 @@ a,a:visited{color:#2563eb}select,.btn,.lg,#details,#zoom button,#collapseR,#reop
 .offer-nav a{display:block;font-size:12px;margin:8px 0;text-decoration:none}
 </style>
 <script src="assets/external-links.js" defer></script>
+<link rel="stylesheet" href="assets/i18n.css">
+<script src="assets/translations-en.js"></script>
+<script src="assets/i18n.js"></script>
 </head>
 <body>
 <div id="app">
-  <div id="sidebar">
+  <div id="sidebar"><div class="language-switch" role="navigation" aria-label="Valoda"><a href="?lang=lv" data-language="lv">LV</a><a href="?lang=en" data-language="en">EN</a></div>
     <h1>HZF digitālo humanitāro zinātņu aktivitāšu tīkls</h1>
     <div class="sub"><a href="index.html" style="display:inline-block;margin-bottom:8px">← Sākums</a> <a href="par-kartejumu.html" style="display:inline-block;margin-left:10px;font-size:12px">Par kartējumu</a> <a href="ieteikumi.html" style="margin-left:10px;font-size:12px">Ieteikumi</a><br><a href="HZF_DH_karte.html">DH kopaina</a> · <strong>Aktivitāšu tīkls</strong> · <a href="HZF_DH_ekspertize.html">Ekspertīzes jomas</a><br><br>Atjaunināti dati · 08.11.2026.<br></div>
     <button id="reopenR" type="button" aria-controls="rpanel" aria-expanded="false">☰ Atvērt aktivitāšu sarakstu</button>
@@ -229,7 +232,7 @@ function draw(){
     ctx.font=(mainLabel?'600 ':'')+fontSize+'px -apple-system,Segoe UI,Roboto,sans-serif';
     const x=n.x*scale+tx,y=n.y*scale+ty,r=radius(n)*scale;
     if(x<0||x>W||y<108||y>H-40)continue;
-    const text=n.kind==='dept'?(DEPTSHORT[n.label]||n.label):n.label;
+    const text=DHI18n.t(n.kind==='dept'?(DEPTSHORT[n.label]||n.label):n.label);
     const available=n.kind==='dept'?x-r-26:W-x-r-26;const maxWidth=n.kind==='act'?190:Math.max(70,Math.min(mainLabel?210:142,W*.23,available)),words=text.split(/\s+/),lines=[];let line='';
     for(const word of words){const next=line?line+' '+word:word;if(ctx.measureText(next).width>maxWidth&&line){lines.push(line);line=word;}else line=next;}if(line)lines.push(line);
     if(n.kind!=='dept'&&lines.length>4){lines.length=4;lines[3]=lines[3].slice(0,22)+'…';}
@@ -251,7 +254,7 @@ function draw(){
   }
   ctx.restore();ctx.setTransform(DPR,0,0,DPR,0,0);
   if(mode==='hier'){ctx.fillStyle='#fff';ctx.fillRect(0,0,W,92);ctx.strokeStyle='#e5e7eb';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,92);ctx.lineTo(W,92);ctx.stroke();ctx.fillStyle='#64748b';ctx.font='600 11px -apple-system,Segoe UI,Roboto,sans-serif';ctx.textAlign='center';
-    for(const [x,t]of[[-350,'STRUKTŪRVIENĪBAS'],[0,'AKTIVITĀTES'],[350,'DH JOMAS']])ctx.fillText(t,Math.max(80,Math.min(W-80,x*scale+tx)),65);
+    for(const [x,t]of[[-350,'STRUKTŪRVIENĪBAS'],[0,'AKTIVITĀTES'],[350,'DH JOMAS']])ctx.fillText(DHI18n.t(t),Math.max(80,Math.min(W-80,x*scale+tx)),65);
   }
 }
 // Resolve force positions before painting so filters produce one settled view.
@@ -336,6 +339,7 @@ function renderFocus(){
   const panel=$('focusView'),width=Math.max(760,panel.clientWidth),font=Math.max(13,Number($('labelSize').value)),lineHeight=font+5;
   const xRoot=230,xNode=Math.max(400,Math.round(width*.46)),xText=xNode+20,textWidth=Math.min(560,width-xText-36);
   function wrap(text,size,maxWidth,bold=false){
+    text=DHI18n.t(text);
     ctx.save();ctx.font=(bold?'600 ':'')+size+'px -apple-system,Segoe UI,Roboto,sans-serif';
     const lines=[];let line='';
     for(const word of text.split(/\s+/)){const next=line?line+' '+word:word;if(line&&ctx.measureText(next).width>maxWidth){lines.push(line);line=word;}else line=next;}
@@ -348,7 +352,7 @@ function renderFocus(){
   const rootLines=wrap(root.label,font*1.15,190,true);
   const color=n=>n.kind==='act'?(TYPECOL[n.atype]||COL.act):COL[n.kind];
   function shape(n,x,y){return n.kind==='dept'?`<path d="M ${x} ${y-13} l 13 13 l -13 13 l -13 -13 Z" fill="${color(n)}"/>`:`<circle cx="${x}" cy="${y}" r="${n.id===root.id?10:6}" fill="${color(n)}"/>`;}
-  function text(lines,x,y,size,bold=false,anchor='start'){return `<text x="${x}" y="${y}" fill="${bold?'#1e3a8a':'#374151'}" font-size="${size}" font-weight="${bold?600:400}" text-anchor="${anchor}" font-family="-apple-system,Segoe UI,Roboto,sans-serif">${lines.map((line,i)=>`<tspan x="${x}" dy="${i?size+5:0}">${esc(line)}</tspan>`).join('')}</text>`;}
+  function text(lines,x,y,size,bold=false,anchor='start'){return `<text data-no-translate x="${x}" y="${y}" fill="${bold?'#1e3a8a':'#374151'}" font-size="${size}" font-weight="${bold?600:400}" text-anchor="${anchor}" font-family="-apple-system,Segoe UI,Roboto,sans-serif">${lines.map((line,i)=>`<tspan x="${x}" dy="${i?size+5:0}">${esc(line)}</tspan>`).join('')}</text>`;}
   let y=top;const positions=rows.map(row=>{const point={...row,y:y+row.height/2};y+=row.height;return point;});
   let svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" role="img" aria-label="${esc(root.label)}">`;
   for(const row of positions)svg+=`<path d="M ${xRoot} ${yRoot} C ${xRoot+80} ${yRoot}, ${xNode-80} ${row.y}, ${xNode} ${row.y}" fill="none" stroke="${root.kind==='kw'||row.n.kind==='kw'?'#059669':'#2563eb'}" stroke-opacity=".65" stroke-width=".9"/>`;
@@ -360,6 +364,7 @@ function renderThreeFocus(root){
   const panel=$('focusView'),width=Math.max(1180,panel.clientWidth),font=Math.max(13,Number($('labelSize').value)),lh=font+5;
   const xRoot=200,xMiddle=320,xText=340,xThird=width-250,middleWidth=Math.min(350,xThird-xText-140);
   function wrap(label,max,bold=false){
+    label=DHI18n.t(label);
     ctx.save();ctx.font=(bold?'600 ':'')+(bold?font*1.15:font)+'px -apple-system,Segoe UI,Roboto,sans-serif';
     const lines=[];let line='';for(const word of label.split(/\s+/)){const next=line?line+' '+word:word;if(line&&ctx.measureText(next).width>max){lines.push(line);line=word;}else line=next;}if(line)lines.push(line);ctx.restore();return lines;
   }
@@ -370,7 +375,7 @@ function renderThreeFocus(root){
   const height=Math.max(panel.clientHeight,sum(middle)+100,sum(right)+100),yRoot=(height+48)/2;
   for(const rows of [middle,right]){let y=64+(height-80-sum(rows))/2;for(const row of rows){row.y=y+row.h/2;y+=row.h;}}
   const topicRows=new Map(right.map(r=>[r.n.id,r]));
-  function label(lines,x,y,bold=false){const size=bold?font*1.15:font;return `<text x="${x}" y="${y-(lines.length-1)*(size+5)/2+size*.35}" font-family="-apple-system,Segoe UI,Roboto,sans-serif" font-size="${size}" font-weight="${bold?600:400}" fill="${bold?'#1e3a8a':'#374151'}" text-anchor="${bold?'end':'start'}">${lines.map((line,i)=>`<tspan x="${x}" dy="${i?size+5:0}">${esc(line)}</tspan>`).join('')}</text>`;}
+  function label(lines,x,y,bold=false){const size=bold?font*1.15:font;return `<text data-no-translate x="${x}" y="${y-(lines.length-1)*(size+5)/2+size*.35}" font-family="-apple-system,Segoe UI,Roboto,sans-serif" font-size="${size}" font-weight="${bold?600:400}" fill="${bold?'#1e3a8a':'#374151'}" text-anchor="${bold?'end':'start'}">${lines.map((line,i)=>`<tspan x="${x}" dy="${i?size+5:0}">${esc(line)}</tspan>`).join('')}</text>`;}
   let svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" role="img" aria-label="Nodaļa, aktivitātes un DH jomas"><g font-family="-apple-system,Segoe UI,sans-serif" font-size="11" font-weight="600" fill="#64748b"><text x="24" y="30">STRUKTŪRVIENĪBA</text><text x="${xMiddle}" y="30">AKTIVITĀTES</text><text x="${xThird}" y="30">DH JOMAS</text></g>`;
   for(const row of middle){
     svg+=`<path d="M ${xRoot} ${yRoot} C ${xRoot+55} ${yRoot}, ${xMiddle-55} ${row.y}, ${xMiddle} ${row.y}" fill="none" stroke="#2563eb" stroke-opacity=".65" stroke-width=".9"/>`;
